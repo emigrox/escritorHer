@@ -7,7 +7,6 @@
                 <h2 class="text-center"> Sign-up </h2>
             </v-col>
           </v-row>
-
           <v-row justify="center">
           <v-col cols="12" md="4">
             <v-form ref="form" 
@@ -35,8 +34,7 @@
                 type="password"
                 required
               ></v-text-field>
-              <v-row></v-row>
-              <v-btn @click="validateField()" left>Summit</v-btn>
+              <v-btn @click="validateField">Summit</v-btn>
             </v-form>
           </v-col>
           </v-row>
