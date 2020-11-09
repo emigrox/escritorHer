@@ -12,11 +12,11 @@
   
         <v-spacer></v-spacer>
   
-        <v-btn icon to="/">
+        <v-btn icon to="/" >
           <v-icon>mdi-home</v-icon>
         </v-btn>
   
-        <v-btn icon to="/Signup">
+        <v-btn icon to="/login" hover aria-label="Login">
           <v-icon>mdi-account-box</v-icon>
         </v-btn>
   

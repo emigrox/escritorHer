@@ -2,13 +2,10 @@
   <div >
     <v-app>
       <v-container>
-          <v-row justify="center">
-            <v-col cols="12" md="4" justify="center">
-                <h2 class="text-center"> Sign-up </h2>
-            </v-col>
-          </v-row>
-          <v-row justify="center">
-          <v-col cols="12" md="4">
+        <v-layout justify-space-around column>
+          <v-card hover d-flex>
+            <v-container>
+              <v-card-title>Signup</v-card-title>
             <v-form ref="form" 
             lazy-validation
             >
@@ -37,10 +34,13 @@
                 type="password"
                 required
               ></v-text-field>
-              <v-btn @click="validateField">Summit</v-btn>
+              <v-layout justify-space-around>
+              <v-btn @click="validateField" >Summit</v-btn>
+              </v-layout>
             </v-form>
-          </v-col>
-          </v-row>
+            </v-container>        
+          </v-card>
+        </v-layout>
       </v-container>
     </v-app>
   </div>
