@@ -8,7 +8,7 @@
       >
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
   
-        <v-toolbar-title>Page title</v-toolbar-title>
+        <v-toolbar-title>Escritor app</v-toolbar-title>
   
         <v-spacer></v-spacer>
   
@@ -16,7 +16,7 @@
           <v-icon>mdi-home</v-icon>
         </v-btn>
   
-        <v-btn icon to="/About">
+        <v-btn icon to="/Signup">
           <v-icon>mdi-account-box</v-icon>
         </v-btn>
   
