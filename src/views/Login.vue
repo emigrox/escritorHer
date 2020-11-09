@@ -1,8 +1,9 @@
 <template>
   <v-app>
-    <v-container>
-        <v-layout justify-space-around>
-      <v-card>
+    <v-container  >
+      <v-layout justify-space-around >
+          <v-flex >
+      <v-card hover>
         <v-container>
           <v-card-title> Login</v-card-title>
           <v-form ref="form" lazy-validation v-model="valid">
@@ -23,12 +24,14 @@
               type="password"
               required
             ></v-text-field>
+            <v-layout justify-space-around>
             <v-btn @click="validateLogin" :disabled="!valid" align-center
-              >Login</v-btn
-            >
+              >Login</v-btn>
+            </v-layout>
           </v-form>
         </v-container>
       </v-card>
+          </v-flex>
         </v-layout>
     </v-container>
   </v-app>
