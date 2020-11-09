@@ -16,6 +16,7 @@
                 v-model="email"
                 :rules="rulesEmail"
                 label="Email"
+                prepend-icon="mdi-mail"
                 required
               ></v-text-field>
            
@@ -24,6 +25,7 @@
                 :rules="rulesPassword"
                 label="Password"
                 type="password"
+                prepend-icon="mdi-lock"
                 required
               ></v-text-field>
            
@@ -31,6 +33,7 @@
                 v-model="passwordCheck"
                 :rules="rulesPassword"
                 label="Password check"
+                prepend-icon="mdi-lock"
                 type="password"
                 required
               ></v-text-field>
