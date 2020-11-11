@@ -16,14 +16,3 @@
   </div>
 </template>
 
-
-<script>
-import CartaLibro from './components/CartaLibro'
-
-</script>
-
-<CartaLibro
-                  v-for="CartaLibro in Cartalibros"
-                  v-bind:key="CartaLibro.id"
-                  v-bind:CartaLibro="CartaLibro"
-               ></CartaLibro>

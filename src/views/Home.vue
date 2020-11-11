@@ -8,7 +8,7 @@
             <v-row :align="align" no-gutters style="height: 150px">
               <v-col v-for="n in 30" :key="n">
                 <v-container>
-                 <CartaLibro/>
+               <v-card>una tarjeta</v-card>
                 </v-container>
               </v-col>
             </v-row>
@@ -20,17 +20,9 @@
 </template>
 
 {<script>
-import Cartalibro from './component/Cartalibro'
 export default {
-  component : {
-    Cartalibro,
-  },
   data() {
       return {
-          CartaLibro: {
-       id: 1, title: 'el salta montes', author: 'juan pedro', price: '325' 
-       }
-    
       }
   
 }

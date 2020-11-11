@@ -1,5 +1,3 @@
-props: ['cartalibro']
-
  <template>
   <v-container>
     <v-card outlined tile>
@@ -13,16 +11,3 @@ props: ['cartalibro']
     </v-card>
   </v-container>
 </template>
-<script>
-export default {
-
-  data() {
-      return {
-          
-       id: 1, title: "el salta montes", author: "juan pedro", price: "325" 
-       }
-    
-      }
-  }
-;
-</script>

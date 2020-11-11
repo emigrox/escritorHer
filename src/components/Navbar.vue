@@ -8,6 +8,20 @@
 
     <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
+          <v-btn icon to="/PdfReader"
+          v-bind="attrs"
+            v-on="on">
+      <v-icon>mdi-file-document-multiple</v-icon>
+    </v-btn>
+        </template>
+        <span
+            v-bind="attrs"
+            v-on="on"
+          >Pdf Reader</span>
+      </v-tooltip>
+
+    <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
           <v-btn icon to="/"
           v-bind="attrs"
             v-on="on">
