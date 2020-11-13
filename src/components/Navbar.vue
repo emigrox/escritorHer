@@ -48,7 +48,6 @@
           >Signup</span>
       </v-tooltip>
 
-
        <v-tooltip bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-btn icon to="/Login"
